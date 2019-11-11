@@ -3,7 +3,8 @@
 
 <head>
     <title>HTML Basics</title>
-    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="margin.css">
 
 </head>
 
@@ -29,7 +30,7 @@
         <div>
             <!--This is about never giving up -->
             <section>
-                <h1>Never Give Up!!</h1>
+                <h1 class="text-center">Never Give Up!!</h1>
                 <p>I am starting to like forming web pages</p>
                 <ul>
                     <li>The basics</li>
@@ -59,22 +60,22 @@
             <form>
                 <div>
                     <label for="name">First Name:</label>
-                    <input type="text" id="FirstName" name="firstname">
+                    <input type="text" name="firstname" required>
                 </div>
                 <div>
                     <label for="name">Last Name:</label>
-                    <input type="text" id="LastName" name="lastname">
+                    <input type="text" name="lastname" required>
                 </div>
                 <div>
                     <label for="mail">E-mail:</label>
-                    <input type="text" id="e-mail" name="email">
+                    <input type="text" name="email" required>
                 </div>
                 <div>
-                    <button type="button">
+                    <button id="submitButton" type="button">
                         Submit
                     </button>
                 </div>
-                <video href="https://www.youtube.com/watch?v=pcPi4jPAR2c" target="_blank"></video>
+                <a href="https://www.youtube.com/v=pcPi4jPAR2c" target="_blank"></a>
             </form>
             <ol>
                 <li>Its a great site to learn</li>
@@ -102,7 +103,7 @@
                 <li>04th october,2019</li>
                 <li>900mn$</li>
             </ul>
-            <iframe width="420" height="315" src="https://www.youtube.com/embed/v=zAGVQLHvwOY" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/zAGVQLHvwOY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </main>
 </body>

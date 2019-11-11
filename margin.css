@@ -1,0 +1,33 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/9/98/Andromeda_Galaxy_%28with_h-alpha%29.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+input, label{
+    display: block;
+}
+
+h1{
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+form{
+    padding: 1em;
+    margin: 0 auto;
+    width: 166px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 1px 2px black;
+}
+
+button{
+    margin: 1em;
+    padding: 0 1em 0 1em;
+}
