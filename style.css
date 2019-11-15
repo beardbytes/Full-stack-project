@@ -1,0 +1,28 @@
+body{
+    background: lightgrey;
+}
+
+.boxes{
+    background: purple;
+    text-align: center;
+    margin: 2em;
+    padding: 2em;
+    border-style: solid;
+    border-color: steelblue;
+    width: 30em;
+    border-radius: 5px;
+    display: block;
+}
+
+.readme-wrapper:hover{
+    font: bold;
+    color: lightskyblue;
+    
+}
+
+.class{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background: red;
+}
